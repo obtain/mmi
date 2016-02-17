@@ -3,12 +3,15 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"</script>
   <script src="garbage.js"></script>
+  <script src="questions.js"></script>
+  <script src="shuffle.js"></script>
   <title>MMI Practice</title>
 </head>
 
 <body>
   <p>This is the body</p>
-  <p class="Timer"><p>
+  <p class="Timer"></p>
+  <p class="questions"></p>
 </body>
 
 <footer>
@@ -18,6 +21,16 @@
     setInterval(function() {
       $('.Timer').text(Math.floor((new Date - start) / 1000) + " Seconds");
     }, 1000);
+
+    // Create array of indices for the question set
+    var question_indices = Array.apply(null, Array(MMIQuestions.length)).map(
+        function (_, i) {return i;}
+      );
+
+    // Randomize the indices in linear time
+    shuffle(question_indices);
+    // Begin printing out random questions from data
+    $('.questions').text(MMIQuestions[question_indices[0]].question);
   </script>
 </footer>
 </html>
