@@ -17,24 +17,21 @@
 
 <footer>
   <script>
-    $('.questions').text("foo");
     var start = new Date;
 
     setInterval(function() {
       $('.Timer').text(Math.floor((new Date - start) / 1000) + " Seconds");
     }, 1000);
-    $('.questions').text("bar");
 
     // Create array of indices for the question set
-    var question_indices = Array.apply(null, Array(MMIGarbage.length)).map(
+    var question_indices = Array.apply(null, Array(MMIQuestions.length)).map(
         function (_, i) {return i;}
     );
-    $('.questions').text("baz");
 
     // Randomize the indices in linear time
     shuffle(question_indices);
     // Begin printing out random questions from data
-    $('.questions').text(MMIGarbage[question_indices[0]].email);
+    $('.questions').text(MMIQuestions[question_indices[0]].question);
   </script>
 </footer>
 </html>
