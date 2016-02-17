@@ -1,6 +1,6 @@
 // File filled with nonsense data to test load times with large JSON data
 // generated with https://www.mockaroo.com/schemas/download
-[{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
+var MMIGarbage = [{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
 {"id":2,"gender":"Female","first_name":"Martha","last_name":"Chavez","email":"mchavez1@rediff.com","ip_address":"186.103.47.62"},
 {"id":3,"gender":"Female","first_name":"Mary","last_name":"Walker","email":"mwalker2@netscape.com","ip_address":"105.12.165.194"},
 {"id":4,"gender":"Female","first_name":"Dorothy","last_name":"Spencer","email":"dspencer3@guardian.co.uk","ip_address":"219.230.107.138"},
@@ -999,7 +999,7 @@
 {"id":997,"gender":"Male","first_name":"George","last_name":"Kennedy","email":"gkennedyro@smh.com.au","ip_address":"28.151.137.220"},
 {"id":998,"gender":"Male","first_name":"Steven","last_name":"Campbell","email":"scampbellrp@twitter.com","ip_address":"185.213.121.158"},
 {"id":999,"gender":"Male","first_name":"Mark","last_name":"Hart","email":"mhartrq@patch.com","ip_address":"227.109.194.21"},
-{"id":1000,"gender":"Male","first_name":"Antonio","last_name":"Mendoza","email":"amendozarr@howstuffworks.com","ip_address":"64.119.65.8"}][{"id":1,"gender":"Male","first_name":"Harold","last_name":"Williamson","email":"hwilliamson0@apache.org","ip_address":"76.123.171.163","city":"Buenavista","currency":"Peso"},
+{"id":1000,"gender":"Male","first_name":"Antonio","last_name":"Mendoza","email":"amendozarr@howstuffworks.com","ip_address":"64.119.65.8"},{"id":1,"gender":"Male","first_name":"Harold","last_name":"Williamson","email":"hwilliamson0@apache.org","ip_address":"76.123.171.163","city":"Buenavista","currency":"Peso"},
 {"id":2,"gender":"Male","first_name":"Alan","last_name":"Johnson","email":"ajohnson1@wufoo.com","ip_address":"113.149.199.69","city":"Arganil","currency":"Euro"},
 {"id":3,"gender":"Male","first_name":"Eugene","last_name":"Morales","email":"emorales2@msu.edu","ip_address":"168.230.221.169","city":"Ji Paraná","currency":"Real"},
 {"id":4,"gender":"Female","first_name":"Ashley","last_name":"Hernandez","email":"ahernandez3@stanford.edu","ip_address":"95.196.88.133","city":"Hougang","currency":"Yuan Renminbi"},
@@ -1998,7 +1998,7 @@
 {"id":997,"gender":"Female","first_name":"Norma","last_name":"Snyder","email":"nsnyderro@nasa.gov","ip_address":"37.107.231.166","city":"Falun","currency":"Krona"},
 {"id":998,"gender":"Male","first_name":"Shawn","last_name":"Perez","email":"sperezrp@go.com","ip_address":"60.217.114.248","city":"Bomomani","currency":"Rupiah"},
 {"id":999,"gender":"Female","first_name":"Laura","last_name":"Spencer","email":"lspencerrq@edublogs.org","ip_address":"57.144.158.112","city":"Qiancheng","currency":"Yuan Renminbi"},
-{"id":1000,"gender":"Female","first_name":"Emily","last_name":"Miller","email":"emillerrr@bloomberg.com","ip_address":"27.64.241.104","city":"Shënmëri","currency":"Lek"}][{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
+{"id":1000,"gender":"Female","first_name":"Emily","last_name":"Miller","email":"emillerrr@bloomberg.com","ip_address":"27.64.241.104","city":"Shënmëri","currency":"Lek"},{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
 {"id":2,"gender":"Female","first_name":"Martha","last_name":"Chavez","email":"mchavez1@rediff.com","ip_address":"186.103.47.62"},
 {"id":3,"gender":"Female","first_name":"Mary","last_name":"Walker","email":"mwalker2@netscape.com","ip_address":"105.12.165.194"},
 {"id":4,"gender":"Female","first_name":"Dorothy","last_name":"Spencer","email":"dspencer3@guardian.co.uk","ip_address":"219.230.107.138"},
@@ -2997,7 +2997,7 @@
 {"id":997,"gender":"Male","first_name":"George","last_name":"Kennedy","email":"gkennedyro@smh.com.au","ip_address":"28.151.137.220"},
 {"id":998,"gender":"Male","first_name":"Steven","last_name":"Campbell","email":"scampbellrp@twitter.com","ip_address":"185.213.121.158"},
 {"id":999,"gender":"Male","first_name":"Mark","last_name":"Hart","email":"mhartrq@patch.com","ip_address":"227.109.194.21"},
-{"id":1000,"gender":"Male","first_name":"Antonio","last_name":"Mendoza","email":"amendozarr@howstuffworks.com","ip_address":"64.119.65.8"}][{"id":1,"gender":"Male","first_name":"Harold","last_name":"Williamson","email":"hwilliamson0@apache.org","ip_address":"76.123.171.163","city":"Buenavista","currency":"Peso"},
+{"id":1000,"gender":"Male","first_name":"Antonio","last_name":"Mendoza","email":"amendozarr@howstuffworks.com","ip_address":"64.119.65.8"},{"id":1,"gender":"Male","first_name":"Harold","last_name":"Williamson","email":"hwilliamson0@apache.org","ip_address":"76.123.171.163","city":"Buenavista","currency":"Peso"},
 {"id":2,"gender":"Male","first_name":"Alan","last_name":"Johnson","email":"ajohnson1@wufoo.com","ip_address":"113.149.199.69","city":"Arganil","currency":"Euro"},
 {"id":3,"gender":"Male","first_name":"Eugene","last_name":"Morales","email":"emorales2@msu.edu","ip_address":"168.230.221.169","city":"Ji Paraná","currency":"Real"},
 {"id":4,"gender":"Female","first_name":"Ashley","last_name":"Hernandez","email":"ahernandez3@stanford.edu","ip_address":"95.196.88.133","city":"Hougang","currency":"Yuan Renminbi"},
@@ -3996,7 +3996,7 @@
 {"id":997,"gender":"Female","first_name":"Norma","last_name":"Snyder","email":"nsnyderro@nasa.gov","ip_address":"37.107.231.166","city":"Falun","currency":"Krona"},
 {"id":998,"gender":"Male","first_name":"Shawn","last_name":"Perez","email":"sperezrp@go.com","ip_address":"60.217.114.248","city":"Bomomani","currency":"Rupiah"},
 {"id":999,"gender":"Female","first_name":"Laura","last_name":"Spencer","email":"lspencerrq@edublogs.org","ip_address":"57.144.158.112","city":"Qiancheng","currency":"Yuan Renminbi"},
-{"id":1000,"gender":"Female","first_name":"Emily","last_name":"Miller","email":"emillerrr@bloomberg.com","ip_address":"27.64.241.104","city":"Shënmëri","currency":"Lek"}][{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
+{"id":1000,"gender":"Female","first_name":"Emily","last_name":"Miller","email":"emillerrr@bloomberg.com","ip_address":"27.64.241.104","city":"Shënmëri","currency":"Lek"},{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
 {"id":2,"gender":"Female","first_name":"Martha","last_name":"Chavez","email":"mchavez1@rediff.com","ip_address":"186.103.47.62"},
 {"id":3,"gender":"Female","first_name":"Mary","last_name":"Walker","email":"mwalker2@netscape.com","ip_address":"105.12.165.194"},
 {"id":4,"gender":"Female","first_name":"Dorothy","last_name":"Spencer","email":"dspencer3@guardian.co.uk","ip_address":"219.230.107.138"},
@@ -4995,7 +4995,7 @@
 {"id":997,"gender":"Male","first_name":"George","last_name":"Kennedy","email":"gkennedyro@smh.com.au","ip_address":"28.151.137.220"},
 {"id":998,"gender":"Male","first_name":"Steven","last_name":"Campbell","email":"scampbellrp@twitter.com","ip_address":"185.213.121.158"},
 {"id":999,"gender":"Male","first_name":"Mark","last_name":"Hart","email":"mhartrq@patch.com","ip_address":"227.109.194.21"},
-{"id":1000,"gender":"Male","first_name":"Antonio","last_name":"Mendoza","email":"amendozarr@howstuffworks.com","ip_address":"64.119.65.8"}][{"id":1,"gender":"Male","first_name":"Harold","last_name":"Williamson","email":"hwilliamson0@apache.org","ip_address":"76.123.171.163","city":"Buenavista","currency":"Peso"},
+{"id":1000,"gender":"Male","first_name":"Antonio","last_name":"Mendoza","email":"amendozarr@howstuffworks.com","ip_address":"64.119.65.8"},{"id":1,"gender":"Male","first_name":"Harold","last_name":"Williamson","email":"hwilliamson0@apache.org","ip_address":"76.123.171.163","city":"Buenavista","currency":"Peso"},
 {"id":2,"gender":"Male","first_name":"Alan","last_name":"Johnson","email":"ajohnson1@wufoo.com","ip_address":"113.149.199.69","city":"Arganil","currency":"Euro"},
 {"id":3,"gender":"Male","first_name":"Eugene","last_name":"Morales","email":"emorales2@msu.edu","ip_address":"168.230.221.169","city":"Ji Paraná","currency":"Real"},
 {"id":4,"gender":"Female","first_name":"Ashley","last_name":"Hernandez","email":"ahernandez3@stanford.edu","ip_address":"95.196.88.133","city":"Hougang","currency":"Yuan Renminbi"},
@@ -5994,4 +5994,4 @@
 {"id":997,"gender":"Female","first_name":"Norma","last_name":"Snyder","email":"nsnyderro@nasa.gov","ip_address":"37.107.231.166","city":"Falun","currency":"Krona"},
 {"id":998,"gender":"Male","first_name":"Shawn","last_name":"Perez","email":"sperezrp@go.com","ip_address":"60.217.114.248","city":"Bomomani","currency":"Rupiah"},
 {"id":999,"gender":"Female","first_name":"Laura","last_name":"Spencer","email":"lspencerrq@edublogs.org","ip_address":"57.144.158.112","city":"Qiancheng","currency":"Yuan Renminbi"},
-{"id":1000,"gender":"Female","first_name":"Emily","last_name":"Miller","email":"emillerrr@bloomberg.com","ip_address":"27.64.241.104","city":"Shënmëri","currency":"Lek"}]
+{"id":1000,"gender":"Female","first_name":"Emily","last_name":"Miller","email":"emillerrr@bloomberg.com","ip_address":"27.64.241.104","city":"Shënmëri","currency":"Lek"}];
