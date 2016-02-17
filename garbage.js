@@ -1,4 +1,5 @@
 // File filled with nonsense data to test load times with large JSON data
+// generated with https://www.mockaroo.com/schemas/download
 [{"id":1,"gender":"Female","first_name":"Kathleen","last_name":"Cooper","email":"kcooper0@prnewswire.com","ip_address":"81.50.40.24"},
 {"id":2,"gender":"Female","first_name":"Martha","last_name":"Chavez","email":"mchavez1@rediff.com","ip_address":"186.103.47.62"},
 {"id":3,"gender":"Female","first_name":"Mary","last_name":"Walker","email":"mwalker2@netscape.com","ip_address":"105.12.165.194"},
