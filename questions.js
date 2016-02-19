@@ -1,26 +1,4 @@
-var MMIQuestionSources = {
-    "lmu_mmi_mock": {
-        "link": "http://cse.lmu.edu/media/lmucse/departments/healthprofessionsadvisingoffice/contentassets/documents/MMI%20Mock%20Questions.pdf",
-        "institution": {
-            "short": "LMU",
-            "full": "Loyola Marymount University",
-            "division": "Center for Student Success"
-        },
-        "year": "2015"
-    },
-
-    "ubc_mmi_samples": {
-        "link": "http://my.science.ubc.ca/files/2014/01/Sample-Questions-2013-2014.pdf",
-        "institution": {
-            "short": "UBC",
-            "full": "The University of British Columbia",
-            "division": "Centre for Student Involvement and Careers"
-        },
-        "year": "2014"
-    }
-};
-
-var MMIQuestions = [
+[
 {
     "question": "Dr. Curt recommends homeopathic medicines to his patients. There is no scientific evidence or widely accepted theory to suggest that homeopathic medicines work, and Dr. Curt doesn't believe in them. He recommends homeopathic medicine to people with mild and non-specific symptoms such as fatigue, headaches, and muscle aches, because he believes that it will do no harm, but will give them reassurance. What ethical situations does Dr. Curt's behavior pose?",
     "probing_questions": [],
@@ -181,5 +159,35 @@ var MMIQuestions = [
     "probing_questions": [],
     "tags": ["ethical"],
     "source": "ubc_mmi_samples"
+}, {
+    "question": "A message that recently appeared on the Web warned readers of the dangers of aspartame (artificial sweetener – Nutrasweet, Equal) as a cause of an epidemic of multiple sclerosis (a progressive chronic disease of the nervous system) and systemic lupus (a multisystem auto-immune disease). The biological explanation provided was that, at body temperature, aspartame releases wood alcohol (methanol), which turns into formic acid, which 'is in the same class of drugs as cyanide and arsenic.' Formic acid, they argued, causes metabolic acidosis. Clinically, aspartame poisoning was argued to be a cause of joint pain, numbness, cramps, vertigo, headaches, depression, anxiety, slurred speech and blurred vision. The authors claimed that aspartame remains on the market because the food and drug industries have powerful lobbies in Congress. They quoted Dr. Rhonda Blaylock, who said, 'The ingredients stimulate the neurons of the brain to death, causing brain damage of varying degrees.' Critique this message, in terms of the strength of the arguments presented and their logical consistency. Your critique might include an indication of the issues that you would like to delve into further before assessing the validity of these claims.",
+    "probing_questions": [],
+    "tags": ["critical thinking"],
+    "source": "usask_mmi_samples"
+}, {
+    "question": "Your company needs both you and a co-worker (Sara, a colleague from another branch of the company) to attend a critical business meeting in San Diego. You have just arrived to drive Sara to the airport. Sara (played by an actor) is in the room.",
+    "probing_questions": [],
+    "tags": ["communication"],
+    "source": "usask_mmi_samples"
+}, {
+    "question": "Recently, the Prime Minister of Canada raised the issue of deterrent fees (a small charge, say $10, which everyone who initiates a visit to a health professional would have to pay at the first contact) as a way to control health care costs. The assumption is that this will deter people from visiting their doctor for unnecessary reasons. Consider the broad implications of this policy for health and health care costs. For example, do you think the approach will save health care costs? At what expense? Discuss this issue with the interviewer.",
+    "probing_questions": [],
+    "tags": ["societal"],
+    "source": "usask_mmi_samples"
+}, {
+    "question": "Universities are commonly faced with the complicated task of balancing the educational needs of their students and the cost required to provide learning resources to a large number of individuals. As a result of this tension, there has been much debate regarding the optimal size of classes. One side argues that smaller classes provide a more educationally effective setting for students, while others argue that it makes no difference, so larger classes should be used to minimise the number of instructors required. Discuss your opinion on this issue with the examiner.",
+    "probing_questions": [],
+    "tags": ["critical thinking"],
+    "source": "usask_mmi_samples"
+}, {
+    "question": "The parking garage at your place of work has assigned parking spots. On leaving your spot, you are observed by the garage attendant as you back into a neighbouring car, knocking out its left front headlight and denting the left front fender. The garage attendant gives you the name and office number of the owner of the neighbouring car, telling you that she is calling ahead to the car owner, Tim. The garage attendant tells you that Tim is expecting your visit. Enter Tim's office. Tim will be played by an actor.",
+    "probing_questions": [],
+    "tags": ["communication"],
+    "source": "usask_mmi_samples"
+}, {
+    "question": "Due to the shortage of medical professionals in rural communities, it has been suggested that medical programmes preferentially admit students who are willing to commit to a 2 or 3, year tenure in an under-serviced area upon graduation. Consider the broad implications of this policy for health and health care costs. For example, do you think the approach will be effective? At what expense? Discuss this issue with the interviewer.",
+    "probing_questions": [],
+    "tags": ["societal"],
+    "source": "usask_mmi_samples"
 }
 ];
