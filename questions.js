@@ -1,10 +1,5 @@
 [
 {
-    "question": "Dr. Curt recommends homeopathic medicines to his patients. There is no scientific evidence or widely accepted theory to suggest that homeopathic medicines work, and Dr. Curt doesn't believe in them. He recommends homeopathic medicine to people with mild and non-specific symptoms such as fatigue, headaches, and muscle aches, because he believes that it will do no harm, but will give them reassurance. What ethical situations does Dr. Curt's behavior pose?",
-    "probing_questions": [],
-    "tags": [],
-    "source": "lmu_mmi_mock"
-}, {
     "question": "A 2 year old infant has lost a massive amount of blood in a road accident and again the best chance of saving the child's life is an urgent blood transfusion and operative intervention to arrest the bleeding. Both the child's parents are Jehovah's Witnesses and refuse to give permission for a blood transfusion, requesting instead that the best available non-blood products are used to restore volume and that surgery is carried out without blood. They understand that this will be a far more dangerous course of action than surgery plus blood transfusion but persist in refusing permission for a blood transfusion for their child. How would you proceed?",
     "probing_questions": [],
     "tags": [],
@@ -183,11 +178,6 @@
     "question": "The parking garage at your place of work has assigned parking spots. On leaving your spot, you are observed by the garage attendant as you back into a neighbouring car, knocking out its left front headlight and denting the left front fender. The garage attendant gives you the name and office number of the owner of the neighbouring car, telling you that she is calling ahead to the car owner, Tim. The garage attendant tells you that Tim is expecting your visit. Enter Tim's office. Tim will be played by an actor.",
     "probing_questions": [],
     "tags": ["communication"],
-    "source": "usask_mmi_samples"
-}, {
-    "question": "Due to the shortage of medical professionals in rural communities, it has been suggested that medical programmes preferentially admit students who are willing to commit to a 2 or 3, year tenure in an under-serviced area upon graduation. Consider the broad implications of this policy for health and health care costs. For example, do you think the approach will be effective? At what expense? Discuss this issue with the interviewer.",
-    "probing_questions": [],
-    "tags": ["societal"],
     "source": "usask_mmi_samples"
 }
 ];
