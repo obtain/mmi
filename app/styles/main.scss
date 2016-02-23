@@ -1,0 +1,123 @@
+// bower:scss
+// endbower
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+
+body {
+  background: #EEE;
+  font-family: 'Karla', sans-serif;
+  color: #333;
+  margin: 0px;
+  text-align: center;
+  color: #444;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+
+.error {
+  color: rgb(207, 0, 15);
+}
+
+.key {
+    background-color: #F4B350;
+    padding: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#carriage {
+    position: relative;
+    top: 3px;
+}
+
+.question {
+  width: 80%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.paragraph {
+  line-height: 2.5em;
+  text-align: center;
+  
+}
+
+.instructions {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  line-height: 2.5em;
+  text-align: right;
+}
+
+.question .text {
+  color: rgb(246, 117, 50);
+  font-size: 2em;
+  text-align: center;
+
+}
+
+#timer {
+  font-size: 1.5em;
+}
+
+#state {
+  margin-top: 40px;
+}
+.intro {
+  text-align: center;
+  
+  h1,
+  h2{
+    font-family: 'Roboto Slab', serif;
+  }
+
+  h1,
+  h2,
+  p {
+    color: rgb(246, 117, 50);
+  }
+  
+  a { border-bottom-color: #f7854a; }
+}
+
+#source {
+  text-align: right;
+  font-size: 10px;
+  color: #eee;
+}
+
+main {
+  background-color: #EEE;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.header {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 1.5em;
+  font-family: 'Roboto Slab', serif;
+  opacity: 0.5;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}

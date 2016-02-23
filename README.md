@@ -1,2 +1,3 @@
-# mmi
-Multiple Mini Interview (MMI) practice application
+# README #
+
+MMI Review questions

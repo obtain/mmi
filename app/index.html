@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>The MMI Interview</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="header">
+        The MMI Interview
+      </div>
+      <div class="dropdown">
+        <ul class="list">
+          <li class="filter">All</li>
+          <li class="filter">Medical</li>
+          <li class="filter">Veterinary</li>
+          <li class="filter">Optometry</li>
+          <li class="filter">Dental</li>
+          <li class="filter">Phamarcy</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h1> Welcome to your MMI practice.</h1> 
+        <div class="paragraph">
+          Press 
+            <span class="key">
+              return 
+              <span id="carriage">↵</span>
+            </span>
+          to start <br>
+          Use <span class="key">←</span> and <span class="key">→</span> to go to the previous or next question  <br>
+          You have 2:00 to prepare and 8:00 to answer the question. 
+        </div>
+      </div>
+      <div class="question">
+        <div class="text">
+          <h2> This is a sample question </h2>
+        </div>
+        <div id="source"></div>
+       
+        <div id="state"></div>
+        <div id="timer">
+          00:00
+        </div>
+
+
+      </div>
+      
+      <div class="instructions">
+        Press 
+          <span class="key">
+            return 
+            <span id="carriage">↵</span>
+          </span>
+        <span class="action">to answer the question</span>
+        <div>
+          Use <span class="key">←</span> and <span class="key">→</span> to navigate
+        </div>
+      </div>
+
+      <div class="footer">
+        Feedback please contact: <a href="mailto:the.mmi.interview@gmail.com?Subject=MMI%20Feedback" target="_blank">the.mmi.interview@gmail.com</a>
+      </div>
+    </div>
+    
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    
+    <!-- build:js scripts/data.js -->
+    <script src="scripts/data.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/sources.js -->
+    <script src="scripts/sources.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>
