@@ -20,12 +20,13 @@ var source = {
     },
 
     "usask_mmi_samples": {
-        "link": "http://medicine.usask.ca/documents/physical-therapy/Practice_MMI_QuestionsUofS.pdf"
+        "link": "http://medicine.usask.ca/documents/physical-therapy/Practice_MMI_QuestionsUofS.pdf",
         "institution": {
             "short": "U of S",
             "full": "University of Saskatchewan",
             "division": "College of Medicine",
         },
-        "year": "2004" 
+        "year": "2004"
+    }
 };
 
