@@ -20,11 +20,11 @@ $(document).keydown(function(e){
 		change_state();
 	}else if (e.keyCode == 37){
 		console.log('Left');
-		question_number--;
+		question_number -= (question_number > 0) ? 1 : 0;
 		next_question();
 	}else if (e.keyCode == 39){
 		console.log('Right');
-		question_number++;
+		question_number += (question_number < question_indices.length) ? 1 : 0;
 		next_question(); 
 	}
 });
