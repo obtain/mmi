@@ -17,5 +17,15 @@ var source = {
             "division": "Centre for Student Involvement and Careers"
         },
         "year": "2014"
-    }
-}
+    },
+
+    "usask_mmi_samples": {
+        "link": "http://medicine.usask.ca/documents/physical-therapy/Practice_MMI_QuestionsUofS.pdf"
+        "institution": {
+            "short": "U of S",
+            "full": "University of Saskatchewan",
+            "division": "College of Medicine",
+        },
+        "year": "2004" 
+};
+
