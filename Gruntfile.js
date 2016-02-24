@@ -384,11 +384,11 @@ module.exports = function (grunt) {
         dir: 'dist',
         commit: true,
         push: true,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        message: 'Built from commit %sourceCommit% on branch %sourceBranch%'
       },
       pages: {
         options: {
-          remote: 'https://github.com/jd3johns/mmi.git',
+          remote: 'https://github.com/obtain/mmi.git',
           branch: 'gh-pages'
         }
       },
