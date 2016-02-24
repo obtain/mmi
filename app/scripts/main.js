@@ -105,7 +105,7 @@ function display_question(){
 		var src = source[question.source];
 		$('#source').html('<a href="'+src.link+'">' + src.institution.full + ", " + src.year +  '</a>');
 	}else{
-		$('.text').html('Congrats! You answered all the question. <br>Come back again!');
+		$('.text').html('Congrats! You answered all the questions. <br>Come back again!');
 		$('#source').html('');
 	}
 }
